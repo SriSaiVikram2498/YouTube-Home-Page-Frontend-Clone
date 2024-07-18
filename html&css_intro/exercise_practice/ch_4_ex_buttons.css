@@ -1,0 +1,60 @@
+.shadow-button{
+    background-color: blue;
+    color:red;
+    margin-left: 38px;
+    margin-right: 8px;
+    padding-left: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 6px;
+    border:none;
+    border-radius:3px;
+    cursor:pointer;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+.shadow-button:hover{
+    transform: translateY(2px);
+    box-shadow:5px 5px 10px rgba(0,0,0,0.15);
+}
+.shadow-button:active{
+    padding-left: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+}
+.stretch-button{
+    background-color: skyblue;
+    color:red;
+    margin-left: 38px;
+    margin-right: 38px;
+    padding-left: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 4px;
+}
+.stretch-button:hover{
+    padding-left: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 14px;
+}
+  .back-button {
+margin-right: 8px;
+padding-top: 8px;
+padding-bottom: 8px;
+font-size: 16px;
+}
+
+.search-result {
+margin-left: 4px;
+margin-right: 4px;
+font-size: 18px;
+}
+
+.next-button {
+margin-left: 8px;
+padding-top: 8px;
+padding-bottom: 8px;
+font-size: 16px;
+}

@@ -1,0 +1,56 @@
+p{
+    font-family: Arial;
+    /* margin-top: 0px;
+    margin-bottom:0px; */
+}
+.ads{
+    font-size: 25px;
+    font-weight:bold;
+    width:450px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.ads_apple{
+    text-align: center;
+    width:450px;
+    font-size:16px;
+    font-weight:500;
+}
+.visit_us{
+    text-align: center;
+    width:450px;
+    font-size:16px;
+    font-weight:500;
+    color:rgb(15, 55, 234);
+}
+.visit_us:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.class1{
+    font-size: 35px;    
+    font-weight:600;
+    margin-bottom: 0px;
+}
+.span1{
+
+    color:grey;
+    font-weight:500;
+    font-size:20px;
+}
+.class2{
+    margin-top:7px;
+    color:rgb(43, 157, 31);
+    font-weight:500;
+    font-size:20px;
+    margin-bottom: 0px;
+}
+.class3{
+    margin-top: 7px;
+    color:grey;
+    font-weight:500;
+    font-size:20px;
+}
+.span2{
+    color:rgb(198, 9, 9);
+}

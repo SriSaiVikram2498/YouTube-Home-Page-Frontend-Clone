@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Twitter
+        </title>
+        <style>
+            .profile-photo{
+                width:50px;
+                height:50px;
+                margin-top: 100px;
+                border-radius: 25px;
+                object-fit: cover;
+                object-position: left;
+                vertical-align: middle;
+            }
+            .post{
+                font-size: 20px;
+                
+                border: none;
+                margin-top: 100px;
+                vertical-align: middle;
+                margin-left: 8px;
+                outline: none;
+                border-bottom: 1px solid transparent;
+            }
+            .post:focus {
+    border-bottom: 1px solid #999; /* Show the line when textbox is focused */
+}
+            .tweet{
+                background-color:rgb(12, 102, 226) ;
+                margin-left: 8px;
+                margin-top: 100px;
+                color:white;
+                font-weight: bold;
+                height:30px;
+                width:60px;
+                border:none;
+                vertical-align: middle;
+                border-radius: 20px;
+                cursor: pointer;
+
+            }
+            .tweet:hover{
+                opacity: 0.8;
+                transition: opacity 0.2s;
+                transform: translateY(1px);
+            }
+        </style>
+    </head>
+    <body>
+        <img class="profile-photo" src="thumbnails/thumbnail-6.webp">
+        <input class="post" type="text" placeholder="What's happening?">
+        <button class="tweet">Tweet</button>
+    </body>
+</html>
+        
